@@ -103,6 +103,53 @@ body{
 .footer{
     background-color: #ffffff;
     border-radius: 1rem;
-    max-width: 95vw;
+    max-width: 90vw;
     margin: 0 auto;
+}
+
+.ul-redes{
+    list-style: none;
+    padding: 0;
+}
+
+.ul-redes li a i{
+    font-size: 2rem;
+    padding: 10px 15px;
+    margin-right: 1rem;
+    border-radius: 35px;
+    transition: all 0.2s ease-in-out;
+}
+
+.ul-redes li a i:hover{
+    background-color: rgba(0, 0, 0, 0.048);
+    transform: scale(1.2);
+}
+
+.fa-facebook{
+    color: rgb(72,100,159);
+}
+.fa-instagram{
+    color:rgb(200,53,102);
+}
+.fa-pinterest-p{
+    color: rgb(230,0,35);
+}
+
+
+@media screen and (min-width: 768px){
+    .fiscal  {
+        max-width: 5vw ;
+    }
+}
+
+.link{
+    color: rgb(0,99,164);
+    text-decoration: none!important;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.link:hover{
+    color: rgb(0,123,255) ;
+    font-size: 1.1rem;
 }
