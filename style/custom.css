@@ -135,12 +135,25 @@ body{
     color: rgb(230,0,35);
 }
 
+/* @media screen and (max-width: 768px){
+    .fiscal  {
+        max-width: 25vw ;
+    }
+}
+
 
 @media screen and (min-width: 768px){
     .fiscal  {
-        max-width: 5vw ;
+        max-width: 10vw ;
     }
 }
+
+@media screen and (min-width: 1100px){
+    .fiscal  {
+        max-width: 5vw ;
+    }
+} */
+
 
 .link{
     color: rgb(0,99,164);
